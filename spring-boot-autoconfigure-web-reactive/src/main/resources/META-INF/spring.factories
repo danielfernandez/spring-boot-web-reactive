@@ -2,7 +2,8 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 org.springframework.boot.autoconfigure.reactiveweb.AnnotationReactiveWebAutoConfiguration,\
   org.springframework.boot.autoconfigure.reactiveweb.FunctionalReactiveWebAutoConfiguration,\
-org.springframework.boot.autoconfigure.reactiveweb.ReactiveHttpServerAutoConfiguration
+org.springframework.boot.autoconfigure.reactiveweb.ReactiveHttpServerAutoConfiguration,\
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafReactiveWebAutoConfiguration
 
 # Environment Post Processors
 org.springframework.boot.env.EnvironmentPostProcessor=\
